@@ -12,3 +12,4 @@ module.exports = { db, lookupUserByEmail };
 
 // trivial follow-up commit to trigger a `synchronize` webhook event
 module.exports.VERSION = "1.0.1";
+module.exports.BUILD = "retry-after-fix";
