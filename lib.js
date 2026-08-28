@@ -9,3 +9,6 @@ async function lookupUserByEmail(email) {
 }
 
 module.exports = { db, lookupUserByEmail };
+
+// trivial follow-up commit to trigger a `synchronize` webhook event
+module.exports.VERSION = "1.0.1";
